@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF4BE"
+    tools:context=".informationUser.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginVertical="20dp"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
+            android:textColorHint="#FF0000"
+            android:textDirection="inherit"
+            app:hintTextColor="#FF0000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Emailogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/taplayer"
+                android:backgroundTint="#F8DAC4"
+                android:fontFamily="@font/viga"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="text|textEmailAddress|textNoSuggestions"
+                android:textAlignment="center"
+                android:textColor="#E60C0C"
+                android:textColorHint="#E80000"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="20dp"
+            android:hint="password"
+            android:textColorHint="#FF0000"
+            app:expandedHintEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:hintEnabled="true"
+            app:hintTextColor="#FF0000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/taplayer"
+                android:backgroundTint="#F8DAC4"
+                android:fontFamily="@font/viga"
+                android:gravity="center"
+                android:hint="password"
+                android:inputType="text|textPassword|textNoSuggestions"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textColorHint="#FF0000"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/restbtn"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/viga"
+                android:text="Rest password"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login"
+            style="@style/Widget.Material3.ExtendedFloatingActionButton.Tertiary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#500202"
+            android:fontFamily="@font/viga"
+            android:gravity="center"
+            android:text="login"
+            android:textColor="#FF0000"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF4BE"
+    android:orientation="vertical"
+    tools:context=".informationUser.Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/updateavtar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/updateimg" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="20dp"
+            android:hint="Full name"
+            android:textColorHint="#FF0000"
+            app:hintAnimationEnabled="true"
+            app:hintEnabled="true"
+            app:hintTextColor="#FF0000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fullnameET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/taplayer"
+                android:backgroundTint="#ADC1A1"
+                android:fontFamily="@font/viga"
+                android:gravity="center"
+                android:hint="Full name"
+                android:textColor="#FF0000"
+                android:textColorHint="#FF0000"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="20dp"
+            android:textColorHint="#FF0000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/EmailET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/taplayer"
+                android:backgroundTint="#ADC1A1"
+                android:fontFamily="@font/viga"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="text|textEmailAddress|textNoSuggestions"
+                android:textColor="#FF0000"
+                android:textColorHint="#FF0000"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="20dp"
+            android:textColorHint="#FF0000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phoneET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/taplayer"
+                android:backgroundTint="#ADC1A1"
+                android:fontFamily="@font/viga"
+                android:gravity="center"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:textColor="#FF0000"
+                android:textColorHint="#FF0000"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="20dp"
+            android:textColorHint="#FF0000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/taplayer"
+                android:backgroundTint="#ADC1A1"
+                android:fontFamily="@font/viga"
+                android:gravity="center"
+                android:hint="password"
+                android:inputType="text|textPassword|textNoSuggestions"
+                android:textColor="#FF0000"
+                android:textColorHint="#FF0000"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/signupbtn"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/viga"
+            android:text="sign up"
+            android:textColor="#FF0000"
+            android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>
+

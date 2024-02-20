@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "199094335145",
+    "project_id": "reelzaty",
+    "storage_bucket": "reelzaty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199094335145:android:8f7f58324ef84b9eda1bb8",
+        "android_client_info": {
+          "package_name": "com.ahmad.reelzaty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv-GOETfH0qoOfFqN9nuZQZ3Xv4Sv5Rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
